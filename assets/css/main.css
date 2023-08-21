@@ -233,7 +233,7 @@ section {
 }
 
 .header.sticked {
-  background: #125195;
+  background: #fff;
   padding: 12px 0;
 }
 
@@ -280,7 +280,7 @@ section {
     font-family: var(--font-default);
     font-size: 15px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(128, 128, 128, 0.6);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -296,7 +296,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: rgba(9, 9, 9, 0.6);
   }
 
   .navbar .dropdown ul {
@@ -444,7 +444,7 @@ section {
   }
 
   .mobile-nav-show {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(58, 58, 58, 0.9);
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
